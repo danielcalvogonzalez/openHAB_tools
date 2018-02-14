@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Reinicia los servicios de openHAB
+# sin realizar ninguna acción adicional
+#
+sudo /etc/init.d/openhab2 stop
+sudo /etc/init.d/openhab2 start
+

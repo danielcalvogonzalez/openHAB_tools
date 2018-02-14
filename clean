@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Limpia la cache openHAB, para lo que
+# primero para los servicios, y posteriormente
+# los vuelve a dejar en el estado orginal
+#
+sudo /etc/init.d/openhab2 stop
+sudo rm -rf /var/lib/openhab2/cache/*
+sudo rm -rf /var/lib/openhab2/tmp/*
+sudo /etc/init.d/openhab2 start
+

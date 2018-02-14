@@ -1,0 +1,6 @@
+#/bin/bash
+# 
+# Muestra la lista de paquetes instalados
+#
+#
+dpkg-query -W -f='${Package}\n' | sort -n 

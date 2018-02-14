@@ -1,0 +1,6 @@
+#/bin/bash
+# 
+# Ejecuta la herramienta de configuración de openHAB
+#
+#
+sudo openhabian-config

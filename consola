@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# Accede a la consola de openHAB
+#
+echo "Recuerda que primero es probable que te pida la"
+echo "password para usar el servicio su"
+echo "Y después la password para la consola"
+echo "que suele ser por defecto, habopen"
+sudo ssh -p 8101 openhab@localhost
+
